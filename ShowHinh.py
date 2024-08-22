@@ -5,6 +5,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
+from sklearn.linear_model import LogisticRegression
+
+
 # Đọc dữ liệu
 data = pd.read_csv("Dataset.csv")
 
